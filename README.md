@@ -2,5 +2,5 @@
 
 * Nodejs@6.x
 * Yarn@latest package manager
-* Ruby@2.2.3
+* Ruby@2.3.1
 * scss_lint@latest gem
