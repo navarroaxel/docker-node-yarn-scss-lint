@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y \
 
 # Ruby installation
 RUN mkdir /tmp/ruby
-RUN cd /tmp/ruby && curl --silent ftp://ftp.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz | tar xz
-RUN cd /tmp/ruby/ruby-2.3.1 && ./configure --disable-install-rdoc && make install
+RUN cd /tmp/ruby && curl --silent ftp://ftp.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.gz | tar xz
+RUN cd /tmp/ruby/ruby-2.4.0 && ./configure --disable-install-rdoc && make install
 
 RUN gem install scss_lint
